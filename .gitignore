@@ -1,0 +1,11 @@
+data/
+*.zip
+*.tar.gz
+checkpoints/
+*.pth
+*.pt
+logs/
+*.log
+__pycache__/
+*.pyc
+.vscode/

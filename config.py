@@ -1,0 +1,21 @@
+# config.py - 超参数配置
+
+# 数据参数
+DATA_PATH = "data/tang_poetry.json"
+MAX_SEQ_LEN = 64
+BATCH_SIZE = 64
+
+# 模型参数
+EMBEDDING_DIM = 256
+HIDDEN_DIM = 512
+NUM_LAYERS = 2
+DROPOUT = 0.3
+
+# 训练参数
+EPOCHS = 50
+LEARNING_RATE = 0.001
+PRINT_EVERY = 100
+
+# 生成参数
+GENERATE_LEN = 40
+TEMPERATURE = 0.8
